@@ -1,4 +1,72 @@
-start,1614906444.8479617
-end,1614907910.921404
-start,1615090005.2334843
-end,1615093107.3698113
+start,1614906444.8479617,0
+end,1614907910.921404,Did some research
+start,1615090005.2334843,0
+end,1615093107.3698113,Did more research
+start,1615097427.6932697,0
+end,1615097449.4620636,Did some testing with the loggin system.
+start,1615864877.033749,0
+end,1615867486.1953654,Researched some articles.
+start,1616471178.7479143,0
+end,1616474951.6108148,I worked on seeing if opencv would help me in my project.
+start,1616724411.1898599,0
+end,1616726929.4584868,I tried to figure out opencv a little more. 
+start,1616732051.2040305,0
+end,1616732898.908429,Still figuring out opencv
+start,1617070884.2656713,0
+end,1617072367.1819422,I tried to get my head wrapped around exactly what I'm doing just a little more. 
+start,1617072371.2530324,1
+end,1617076004.5587788,I worked on creating a neural network for identifying individual symbols. I got a dataset class written and a simple convolutional network written. They still need to be tested. 
+start,1617201313.7873688,0
+end,1617202728.6284666,I read a little about sequence to sequence models and tried to brainstorm how I could use them in my work. 
+start,1617245023.94174,1
+end,1617246104.8934476,Brainstormed a bit for encoding ideas. 
+start,1617246410.0502799,0
+end,1617248138.443361,Tried to wrap my head around what to do next.... To be continued!
+start,1617374513.1858716,1
+end,1617375578.5101995,Worked on implementing the single symbol recognizer.
+start,1617677928.3572686,0
+end,1617682535.958328,"I tried and tried and tried to read and understand papers, but I haven't been able to get a good plan put together yet. "
+start,1617758372.7815506,0
+end,1617761293.8665054,Tried to understand more stuff!!!!!
+start,1617762496.9807246,0
+end,1617763093.00123,Trying to understand more stuff.
+start,1617805120.596815,0
+end,1617806894.5074718,Tried to understand more!
+start,1617849800.9469895,1
+end,1617855475.9454684,I worked on figuring out how to tokenize my data and writing a class to do so. 
+start,1617903392.4556022,1
+end,1617905857.450298,Worked on putting together the encoder part. 
+start,1617907527.2894309,1
+end,1617909519.5260181,Worked on encoder more. 
+start,1617927973.7802827,1
+end,1617928939.722739,Tried to work on the encoder more. 
+start,1618023783.259952,1
+end,1618024726.0020516,Worked on Encoder.
+start,1618025829.4428425,1
+end,1618035434.0168686,Made a lot of progress on the encoder. 
+start,1618086087.3070166,1
+end,1618086752.2023516,Worked on the Decoder and how it plays a part in all of this.
+start,1618109305.8999047,1
+end,1618117243.0300467,Tested the Encoder to see if it could encode. Worked on putting the Decoder into the Full Model. Also put a lot of helper functions in. Starting to consider how to read in the images and the labels. 
+start,1618117808.7370586,1
+end,1618120395.5256996,Worked on figuring out how to pass in the training image and label. 
+start,1618285229.775018,2
+end,1618293304.1265256,Trying to organize data to feed into my model. Trying to figure out to deal with different sequence lengths coming out. Maybe use masks?
+start,1618367152.3243837,2
+end,1618377994.5211792,I worked on getting a DataLoader put together. I think that I almost have it working. I have decided not to run it quite yet since I still don't know what to do about the mask...
+start,1618442520.161906,2
+end,1618448389.5911748,Figured out the mask and implemented that in the Dataset class. 
+start,1618459259.297326,1
+end,1618460316.953795,Wrote a loss function
+start,1618460446.230254,1
+end,1618461150.6194913,Started writing the epoch function.
+start,1618462551.4249675,1
+end,1618467612.0229914,"Wrote a Train function and ran an epoch. It works! Next up, need to put things in the CUDA and also maybe find better data somehow. "
+start,1618519644.3569033,1
+end,1618527904.2985077,Got an evaluate function written. Also got everything on the CUDA. Still need to run it though. 
+start,1618531913.057655,1
+end,1618533997.7463093,"So I have ran evaluations through my model now. And it kind of works, but it thinks that everything is the same string.... But it works! kinda not really..."
+start,1618534002.5263174,0
+end,1618535049.9842982,I'm unsure of how to proceed right now. I'm going to take a break. 
+start,1618722244.2796211,2
+end,1618726717.237151,"I wanted to see if the problem I was having had to do with my data, so I made a bunch of images of 4 letter strings and tried to train with those. The same error happened where the model translated everything to the same string. Therefore, I think it has something to do with how I built my model. However, I do not know exactly where to start..."
